@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ace93f018345ca10fa2ac8a6feaad3da" extends="sys_import_set_row" label="CDM Account Data" max_length="40" name="x_77271_csm_integr_cdm_account_data" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="PartyId" max_length="40" name="partyid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PartyName" max_length="200" name="partyname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PartyNumber" max_length="40" name="partynumber" type="string"/>
+    </element>
+</database>
