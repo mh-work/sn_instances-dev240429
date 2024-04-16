@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a4df8a8c831dc210fa2ac8a6feaad33f" sys_domain="global" table="x_77271_csm_integr_cdm_location_data" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e0df8a8c831dc210fa2ac8a6feaad346</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e4df8a8c831dc210fa2ac8a6feaad346</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e8df8a8c831dc210fa2ac8a6feaad346</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>ecdf8a8c831dc210fa2ac8a6feaad346</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>storenumber</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e0df8a8c831dc210fa2ac8a6feaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e4df8a8c831dc210fa2ac8a6feaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sitename</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e8df8a8c831dc210fa2ac8a6feaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addressline2</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>ecdf8a8c831dc210fa2ac8a6feaad347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e0df8a8c831dc210fa2ac8a6feaad348</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>postalcode</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e4df8a8c831dc210fa2ac8a6feaad348</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e8df8a8c831dc210fa2ac8a6feaad348</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>ecdf8a8c831dc210fa2ac8a6feaad348</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sitenumber</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e0df8a8c831dc210fa2ac8a6feaad349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e4df8a8c831dc210fa2ac8a6feaad349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addressline3</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e8df8a8c831dc210fa2ac8a6feaad349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sitecdmid</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>ecdf8a8c831dc210fa2ac8a6feaad349</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addressline1</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e0df8a8c831dc210fa2ac8a6feaad34a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e4df8a8c831dc210fa2ac8a6feaad34a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addressline4</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>e8df8a8c831dc210fa2ac8a6feaad34a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accountcdmid</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_id>ecdf8a8c831dc210fa2ac8a6feaad34a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_location_data" sys_domain="global" view="Default view">a4df8a8c831dc210fa2ac8a6feaad33f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_77271_csm_integr_cdm_location_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 18:14:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a4df8a8c831dc210fa2ac8a6feaad33f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_77271_csm_integr_cdm_location_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</sys_scope>
+            <sys_update_name>sys_ui_section_a4df8a8c831dc210fa2ac8a6feaad33f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 18:14:31</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

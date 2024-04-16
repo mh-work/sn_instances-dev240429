@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e3f245bd83418e10fa2ac8a6feaad377" label="Integration Staging" max_length="40" name="x_77271_csm_integr_integration_staging" type="collection">
+        <element label="Method" max_length="40" name="http_method" type="string"/>
+        <element choice="1" label="Integration" max_length="40" name="integration" type="choice">
+            <choice/>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Payload" max_length="4000" name="payload" type="string"/>
+        <element label="Source IP" max_length="40" name="source_ip" type="ip_addr"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Error" value="error"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+                <element inactive_on_update="false" label="Processed" value="processed"/>
+            </choice>
+        </element>
+        <element label="Status Message" max_length="1024" name="status_message" type="string"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
+    </element>
+</database>

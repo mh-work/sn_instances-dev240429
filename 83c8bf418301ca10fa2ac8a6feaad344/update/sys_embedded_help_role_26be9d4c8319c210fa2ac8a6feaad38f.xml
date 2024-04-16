@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_77271_csm_integr.cdm_account_location_relationship_user" name="x_77271_csm_integr.cdm_account_location_relationship_user">2ebe9d4c8319c210fa2ac8a6feaad38d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 14:40:02</sys_created_on>
+        <sys_id>26be9d4c8319c210fa2ac8a6feaad38f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2ebe9d4c8319c210fa2ac8a6feaad38d</sys_name>
+        <sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</sys_scope>
+        <sys_update_name>sys_embedded_help_role_26be9d4c8319c210fa2ac8a6feaad38f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 14:40:02</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

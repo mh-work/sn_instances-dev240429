@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>CDM Account Location Relationship</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_77271_csm_integr_cdm_account_location_relationship</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">57fa80e0d9313110cedf7dffddb48f89</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 14:40:02</sys_created_on>
+        <sys_id>92aed10c8319c210fa2ac8a6feaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CDM Account Location Relationship</sys_name>
+        <sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</sys_scope>
+        <sys_update_name>sys_db_object_92aed10c8319c210fa2ac8a6feaad332</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 14:40:02</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_77271_csm_integr.cdm_account_location_relationship_user" name="x_77271_csm_integr.cdm_account_location_relationship_user">2ebe9d4c8319c210fa2ac8a6feaad38d</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</application>
+        <file_path/>
+        <instance_id>e2a541031bf8421839a54089bd4bcb90</instance_id>
+        <instance_name>dev240429</instance_name>
+        <name>sys_db_object_92aed10c8319c210fa2ac8a6feaad332</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>CDM Account Location Relationship</label><live_feed_enabled>false</live_feed_enabled><name>x_77271_csm_integr_cdm_account_location_relationship</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">57fa80e0d9313110cedf7dffddb48f89</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-27 14:40:02</sys_created_on><sys_id>92aed10c8319c210fa2ac8a6feaad332</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CDM Account Location Relationship</sys_name><sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package><sys_policy/><sys_scope display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</sys_scope><sys_update_name>sys_db_object_92aed10c8319c210fa2ac8a6feaad332</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-27 14:40:02</sys_updated_on><update_access>false</update_access><user_role display_value="x_77271_csm_integr.cdm_account_location_relationship_user" name="x_77271_csm_integr.cdm_account_location_relationship_user">2ebe9d4c8319c210fa2ac8a6feaad38d</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>923549966</payload_hash>
+        <record_name>CDM Account Location Relationship</record_name>
+        <reverted_from/>
+        <source>495588158345ca10fa2ac8a6feaad3da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 14:40:04</sys_created_on>
+        <sys_id>0fbe95008359c210fa2ac8a6feaad314</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e805a98160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 14:40:04</sys_updated_on>
+        <type>Table</type>
+        <update_guid>43be95004e59c210954abab464a8a314</update_guid>
+        <update_guid_history>43be95004e59c210954abab464a8a314:923549966</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 14:51:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>403dc3cf01a44f4e9217a3e25027c559</sys_id>
+        <sys_metadata>92aed10c8319c210fa2ac8a6feaad332</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CDM Account Location Relationship</sys_name>
+        <sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</sys_scope>
+        <sys_scope_delete display_value="">01da405d4700408691d59d1f35df7644</sys_scope_delete>
+        <sys_update_name>sys_db_object_92aed10c8319c210fa2ac8a6feaad332</sys_update_name>
+        <sys_update_version display_value="sys_db_object_92aed10c8319c210fa2ac8a6feaad332">0fbe95008359c210fa2ac8a6feaad314</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 14:51:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

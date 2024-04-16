@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_77271_csm_integr.IntegrationHandler_CDM</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>IntegrationHandler_CDM</name>
+        <script><![CDATA[var IntegrationHandler_CDM = Class.create();
+IntegrationHandler_CDM.prototype = {
+    initialize: function() {},
+
+    pushToCustomerAccountImportSet: function(rec) {
+        var obj = JSON.parse(rec.payload);
+        var custCreate = obj.CDMActionType.toLowerCase() == 'customercreate';
+        var custUpdate = obj.CDMActionType.toLowerCase() == 'customerupdate';
+        var acctCreate = obj.CDMActionType.toLowerCase() == 'accountcreate';
+        var acctUpdate = obj.CDMActionType.toLowerCase() == 'accountupdate';
+
+        var gr = new GlideRecord('x_77271_csm_integr_cdm_account_data');
+        gr.initialize();
+
+        gr.accounttype = (acctCreate || acctUpdate) ? obj.Customer.Account.AccountType : '';
+        gr.addressline1 = (custCreate || custUpdate) ? obj.Customer.Corporate_Address_Line1 : obj.Customer.Account.Billing_Address_Line1;
+        gr.addressline2 = (custCreate || custUpdate) ? obj.Customer.Corporate_Address_Line2 : obj.Customer.Account.Billing_Address_Line2;
+        gr.addressline3 = (custCreate || custUpdate) ? obj.Customer.Corporate_Address_Line3 : obj.Customer.Account.Billing_Address_Line3;
+        gr.addressline4 = (custCreate || custUpdate) ? obj.Customer.Corporate_Address_Line4 : obj.Customer.Account.Billing_Address_Line4;
+        gr.partyid = (custCreate || custUpdate) ? obj.Customer.CustomerCDMId : obj.Customer.Account.AccountCDMId;
+        gr.city = (custCreate || custUpdate) ? obj.Customer.Corporate_City : obj.Customer.Account.Billing_City;
+        gr.country = (custCreate || custUpdate) ? obj.Customer.Corporate_Country : ((acctCreate) ? obj.Customer.Account.Billing_Country : obj.Customer.Account.Country);
+        gr.industry = (custCreate || custUpdate) ? obj.Customer.NCR_Industry : obj.Customer.Account.NCRIndustry;
+        gr.latitude = (custCreate || custUpdate) ? obj.Customer.LatitudeGeocode : obj.Customer.Account.LatitudeGeocode;
+        gr.longitude = (custCreate || custUpdate) ? obj.Customer.LongitudeGeocode : obj.Customer.Account.LongitudeGeocode;
+        gr.partyname = (custCreate || custUpdate) ? obj.Customer.CustomerName : obj.Customer.Account.AccountName;
+        gr.partynumber = (custCreate || custUpdate) ? obj.Customer.CustomerNumber : obj.Customer.Account.AccountNumber;
+        gr.parent = (custCreate || custUpdate) ? '' : obj.Customer.CustomerCDMId;
+        gr.postalcode = (custCreate || custUpdate) ? obj.Customer.Corporate_PostalCode : obj.Customer.Account.Billing_PostalCode;
+        gr.pulseflag = (acctUpdate) ? obj.Customer.Account.PulseFlag : '';
+        gr.referenceid = rec.sys_id;
+        gr.region = (acctUpdate) ? obj.Customer.Account.Regionlov : '';
+        gr.state = (custCreate || custUpdate) ? obj.Customer.Corporate_State : obj.Customer.Account.Billing_State;
+        gr.status = (custCreate || custUpdate) ? obj.Customer.Status : obj.Customer.Account.Status;
+        gr.subindustry = (custCreate || custUpdate) ? obj.Customer.NCR_SubIndustry : obj.Customer.Account.NCRSubIndustry;
+        gr.website = (custCreate || custUpdate) ? obj.Customer.Website : '';
+
+        gr.insert();
+    },
+
+    pushToLocationImportSet: function(rec) {
+        var obj = JSON.parse(rec.payload);
+
+		for (var i = 0; i < obj.Customer.Account.Sites.Site.length; i++) {
+			var accountCdmId = obj.Customer.Account.AccountCDMId,
+				addressLine1 = obj.Customer.Account.Sites.Site[i].Address_Line1,
+				addressLine2 = obj.Customer.Account.Sites.Site[i].Address_Line2,
+				addressLine3 = obj.Customer.Account.Sites.Site[i].Address_Line3,
+				addressLine4 = obj.Customer.Account.Sites.Site[i].Address_Line4,
+				city = obj.Customer.Account.Sites.Site[i].City,
+				country = obj.Customer.Account.Sites.Site[i].Country,
+				postalCode = obj.Customer.Account.Sites.Site[i].PostalCode,
+				siteCdmId = obj.Customer.Account.Sites.Site[i].SiteCDMId,
+				siteName = obj.Customer.Account.Sites.Site[i].SiteName,
+				siteNumber = obj.Customer.Account.Sites.Site[i].SiteNumber,
+				state = obj.Customer.Account.Sites.Site[i].State,
+				storeNumber = obj.Customer.Account.Sites.Site[i].StoreNumber,
+				siteUseList = obj.Customer.Account.Sites.Site[i].SiteUseList;
+
+			var gr = new GlideRecord('x_77271_csm_integr_cdm_location_data');
+            gr.initialize();
+
+            gr.accountcdmid = accountCdmId;
+            gr.addressline1 = addressLine1;
+            gr.addressline2 = addressLine2;
+            gr.addressline3 = addressLine3;
+            gr.addressline4 = addressLine4;
+            gr.city = city;
+            gr.country = country;
+            gr.postalcode = postalCode;
+            gr.sitecdmid = siteCdmId;
+            gr.sitename = siteName;
+            gr.sitenumber = siteNumber;
+            gr.state = state;
+            gr.storenumber = storeNumber;
+
+            var isActiveSite = false;
+
+            for (j = 0; j < siteUseList.SiteUse.length; j++) {
+                if (siteUseList.SiteUse[j].Status.toLowerCase() == 'a')
+                    isActiveSite = true;
+            }
+
+            gr.status = isActiveSite ? 'A' : 'I';
+
+            gr.insert();
+
+			var siteUse = '';
+			for (j = 0; j < siteUseList.SiteUse.length; j++) {
+				if (siteUseList.SiteUse[j].Status.toLowerCase() == 'a')
+					siteUse += (j == 0 ? '' : ';') + siteUseList.SiteUse[j].SiteUseType;
+			}
+
+			this.pushToAccountAddressRelImportSet(siteUse, accountCdmId, siteCdmId);
+		}
+    },
+
+    pushToAccountAddressRelImportSet: function(siteUseType, accountId, siteId) {
+		var grRel = new GlideRecord('x_77271_csm_integr_cdm_account_location_rel_data');
+		grRel.initialize();
+
+		grRel.accountcdmid = accountId;
+		grRel.sitecdmid = siteId;
+		grRel.siteusetype = siteUseType;
+
+		grRel.insert();
+	},
+
+    type: 'IntegrationHandler_CDM'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 14:09:12</sys_created_on>
+        <sys_id>28601d4c83d5c210fa2ac8a6feaad39b</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>IntegrationHandler_CDM</sys_name>
+        <sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</sys_scope>
+        <sys_update_name>sys_script_include_28601d4c83d5c210fa2ac8a6feaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-29 14:31:33</sys_updated_on>
+    </sys_script_include>
+</record_update>

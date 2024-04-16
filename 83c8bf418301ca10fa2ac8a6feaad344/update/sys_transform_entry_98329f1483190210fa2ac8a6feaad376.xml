@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>reject</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="CDM Account Location Rel TM">ece11bd083190210fa2ac8a6feaad3ef</map>
+        <reference_value_field>sys_id</reference_value_field>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	var gr = new GlideRecord('customer_account');
+	gr.addQuery('u_correlation_id', source.accountcdmid);
+	gr.query();
+
+	if (gr.next()) {
+		return gr.sys_id;
+	}
+	
+	return '';
+
+})(source);]]></source_script>
+        <source_table>x_77271_csm_integr_cdm_account_location_rel_data</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-28 17:44:00</sys_created_on>
+        <sys_id>98329f1483190210fa2ac8a6feaad376</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</sys_scope>
+        <sys_update_name>sys_transform_entry_98329f1483190210fa2ac8a6feaad376</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-28 18:22:16</sys_updated_on>
+        <target_field>account</target_field>
+        <target_table>account_address_relationship</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

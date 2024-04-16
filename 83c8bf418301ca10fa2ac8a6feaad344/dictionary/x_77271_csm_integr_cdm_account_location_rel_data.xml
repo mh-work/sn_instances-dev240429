@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7b0365048359c210fa2ac8a6feaad303" extends="sys_import_set_row" label="CDM Account Location Rel Data" max_length="40" name="x_77271_csm_integr_cdm_account_location_rel_data" type="collection">
+        <element label="AccountCDMId" max_length="40" name="accountcdmid" type="string"/>
+        <element label="SiteCDMId" max_length="40" name="sitecdmid" type="string"/>
+        <element label="SiteUseType" max_length="40" name="siteusetype" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+    </element>
+</database>

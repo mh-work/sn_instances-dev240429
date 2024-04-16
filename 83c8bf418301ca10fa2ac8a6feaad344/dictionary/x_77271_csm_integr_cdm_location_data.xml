@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7422adc08359c210fa2ac8a6feaad379" extends="sys_import_set_row" label="CDM Location Data" max_length="40" name="x_77271_csm_integr_cdm_location_data" type="collection">
+        <element label="AccountCDMId" max_length="40" name="accountcdmid" type="string"/>
+        <element label="Address_Line1" max_length="100" name="addressline1" type="string"/>
+        <element label="Address_Line2" max_length="100" name="addressline2" type="string"/>
+        <element label="Address_Line3" max_length="100" name="addressline3" type="string"/>
+        <element label="Address_Line4" max_length="100" name="addressline4" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="PostalCode" max_length="40" name="postalcode" type="string"/>
+        <element label="SiteCDMId" max_length="40" name="sitecdmid" type="string"/>
+        <element label="SiteName" max_length="100" name="sitename" type="string"/>
+        <element label="SiteNumber" max_length="40" name="sitenumber" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="Store Number" max_length="40" name="storenumber" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a9bcdd7983058e10fa2ac8a6feaad387" extends="syslog0003" label="Integration Logging" max_length="40" name="x_77271_csm_integr_integration_logging0003" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Integration" max_length="40" name="integration" type="string"/>
+        <element attributes="encode_utf8=false" label="Staging ID" max_length="32" name="staging_id" reference="x_77271_csm_integr_integration_staging" type="reference"/>
+        <index name="index">
+            <element name="staging_id"/>
+        </index>
+    </element>
+</database>

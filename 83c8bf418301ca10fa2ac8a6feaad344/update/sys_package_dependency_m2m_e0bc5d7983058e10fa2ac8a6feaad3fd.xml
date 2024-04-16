@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System (apps/system_log)" source="apps/system_log">7aaa8420d9313110cedf7dffddb48f0b</dependency>
+        <min_version/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-20 14:44:50</sys_created_on>
+        <sys_id>e0bc5d7983058e10fa2ac8a6feaad3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-20 14:44:50</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

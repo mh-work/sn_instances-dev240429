@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b5c51b9d83450e10fa2ac8a6feaad331" sys_domain="global" table="x_77271_csm_integr_cdm_account_data" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partyid</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:16:53</sys_created_on>
+            <sys_id>7dc59f1183850e10fa2ac8a6feaad3b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:16:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partyname</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:16:53</sys_created_on>
+            <sys_id>75c59f1183850e10fa2ac8a6feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:16:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>partynumber</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:16:53</sys_created_on>
+            <sys_id>79c59f1183850e10fa2ac8a6feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:16:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>website</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:54</sys_created_on>
+            <sys_id>54e199cc83d5c210fa2ac8a6feaad304</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:54</sys_created_on>
+            <sys_id>d4e199cc83d5c210fa2ac8a6feaad30d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subindustry</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:54</sys_created_on>
+            <sys_id>10e199cc83d5c210fa2ac8a6feaad316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>industry</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:54</sys_created_on>
+            <sys_id>98e199cc83d5c210fa2ac8a6feaad31e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>longitude</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:54</sys_created_on>
+            <sys_id>54e199cc83d5c210fa2ac8a6feaad327</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:54</sys_created_on>
+            <sys_id>18e199cc83d5c210fa2ac8a6feaad33c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:54</sys_created_on>
+            <sys_id>54e199cc83d5c210fa2ac8a6feaad345</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>postalcode</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:55</sys_created_on>
+            <sys_id>e0e199cc83d5c210fa2ac8a6feaad34e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:55</sys_created_on>
+            <sys_id>a0e199cc83d5c210fa2ac8a6feaad357</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:55</sys_created_on>
+            <sys_id>a0e199cc83d5c210fa2ac8a6feaad360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addressline4</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:55</sys_created_on>
+            <sys_id>a8e199cc83d5c210fa2ac8a6feaad375</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addressline3</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:55</sys_created_on>
+            <sys_id>2ce199cc83d5c210fa2ac8a6feaad37e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addressline2</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:55</sys_created_on>
+            <sys_id>ece199cc83d5c210fa2ac8a6feaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>addressline1</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:55</sys_created_on>
+            <sys_id>e0e199cc83d5c210fa2ac8a6feaad391</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>referenceid</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:43:55</sys_created_on>
+            <sys_id>28e199cc83d5c210fa2ac8a6feaad3b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:43:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accounttype</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:46:10</sys_created_on>
+            <sys_id>1962d9cc83d5c210fa2ac8a6feaad3aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:46:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:46:10</sys_created_on>
+            <sys_id>256295008319c210fa2ac8a6feaad396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:46:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>region</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:46:10</sys_created_on>
+            <sys_id>ed6295008319c210fa2ac8a6feaad3dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:46:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pulseflag</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-27 13:46:10</sys_created_on>
+            <sys_id>296295008319c210fa2ac8a6feaad3e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_77271_csm_integr_cdm_account_data" sys_domain="global" view="Default view">b5c51b9d83450e10fa2ac8a6feaad331</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-27 13:46:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_77271_csm_integr_cdm_account_data</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-19 10:16:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5c51b9d83450e10fa2ac8a6feaad331</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_77271_csm_integr_cdm_account_data</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</sys_scope>
+            <sys_update_name>sys_ui_section_b5c51b9d83450e10fa2ac8a6feaad331</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-19 10:16:53</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

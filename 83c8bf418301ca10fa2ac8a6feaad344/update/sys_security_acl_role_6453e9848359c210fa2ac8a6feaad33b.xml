@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-27 15:00:06</sys_created_on>
+        <sys_id>6453e9848359c210fa2ac8a6feaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_77271_csm_integr_cdm_account_location_rel_data.x_77271_csm_integr.cdm_account_location_rel_data_user</sys_name>
+        <sys_package display_value="CSM Integrations" source="x_77271_csm_integr">83c8bf418301ca10fa2ac8a6feaad344</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Integrations">83c8bf418301ca10fa2ac8a6feaad344</sys_scope>
+        <sys_security_acl display_value="x_77271_csm_integr_cdm_account_location_rel_data">a053e9848359c210fa2ac8a6feaad329</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6453e9848359c210fa2ac8a6feaad33b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-27 15:00:06</sys_updated_on>
+        <sys_user_role display_value="x_77271_csm_integr.cdm_account_location_rel_data_user" name="x_77271_csm_integr.cdm_account_location_rel_data_user">5c5325448359c210fa2ac8a6feaad314</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
